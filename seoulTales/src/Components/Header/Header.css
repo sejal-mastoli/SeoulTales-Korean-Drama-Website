@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/Header2.jpg') no-repeat center center;
+    background-size: cover;
+    color: black;
+    
+  }
+  .header-text{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 1vw;
+   max-width: 50%;
+   bottom: 8%;
+   left: 6vw;
+   animation: fadeIn 3s;
+  }
+  .header-text h1{
+    font-family: 'Blogger Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: max(4.5vw,22px);
+    color: rgb(7, 7, 7);
+    
+  }
+ 
+  .header-text p{
+    color: rgb(47, 46, 46);
+  }
+  .header-text h3{
+    color: rgb(62, 62, 62);
+  }
+  .btn{
+    border-radius: 20px;
+    background-color: #955e47;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .btn:hover{
+    background-color: #7c637d;
+  }
+
+  

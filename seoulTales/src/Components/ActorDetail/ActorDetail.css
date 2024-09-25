@@ -1,0 +1,65 @@
+.actor-detail {
+    padding: 20px;
+    text-align: center;
+  }
+  .back-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .drama-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .drama-item {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .drama-item h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .drama-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .actor-photo {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .actor-detail h3 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .actor-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .actor-detail li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .back-button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #955e47;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
